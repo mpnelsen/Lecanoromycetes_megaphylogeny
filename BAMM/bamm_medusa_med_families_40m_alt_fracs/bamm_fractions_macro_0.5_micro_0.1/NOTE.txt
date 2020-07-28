@@ -1,0 +1,1 @@
+chromatochlamys and thelenella wound up with sampling fraction of 0, which causes problems.  instead assigned it 0.004, which is 0.04*0.1.
