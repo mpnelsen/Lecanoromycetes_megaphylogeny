@@ -1,0 +1,16 @@
+BayesTraits treefile.nex statesfile.txt
+~/BayesTraitsV3.0.1-Linux-Threaded/BayesTraitsV3 ExaML_result.subclass_family_constraint_ML_TREE.trimmed_treepl_med_families_cv_LADDERIZED.nex states_for_bayestraits_ambig_recoded.txt
+~/examl_bootstrapping$ ~/examl_bootstrapping/BayesTraitsV3 bs_trimmed_treepl_ladderized_combined.nex states_for_bayestraits_ambig_recoded_boots.txt 
+1
+2
+
+Res q03 q05 q06 q07 q13 q15 q16 q17 q25 q27 q30 q31 q34 q36 q43 q47 q50 q51 q52 q56 q60 q61 q63 q65 q70 q71 q72 q74 0
+RJHP exp 0 10
+Stones 100 10000
+AddTag MRCAStictis_radiata_Myriotrema_olivaceum Stictis_radiata Myriotrema_olivaceum
+AddMRCA MRCAStictis_radiata_Myriotrema_olivaceum MRCAStictis_radiata_Myriotrema_olivaceum
+iterations 80000000
+sample 5000
+burnin 20000000
+Cores 10
+run
